@@ -1,0 +1,53 @@
+.hero-container {
+  background-image: url(./images/bg-masthead.jpg);
+}
+
+.hero-text-box, .see-more-text-box, .ft-box {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.perfect-container, .see-more, .map, footer, .recent-item {
+  height: 300px;
+}
+
+.welcome-container{
+  background-image: url(./images/bg-callout.jpg);
+  height: 550px;
+}
+.stationary {
+  background-image: url(./images/portfolio-1.jpg);
+}
+.ice-cream {
+  background-image: url(./images/portfolio-2.jpg);
+}
+.strawberries {
+  background-image: url(./images/portfolio-3.jpg);
+}
+.workspace {
+  background-image: url(./images/portfolio-4.jpg);
+}
+
+.recent-container {
+  padding: 100px 0;
+}
+
+.stationary-item, .ice-cream-item, .strawberries-item, .workspace-item{
+  bottom: 50px;
+  left: 50px;
+}
+
+.social-icons-wrapper span{
+  width: 40px;
+  height: 40px;
+}
+
+footer > a {
+  right: 10px;
+  bottom: 10px;
+}
+
+.drop p:hover {
+  background-color: rgb(15, 83, 122);
+}
